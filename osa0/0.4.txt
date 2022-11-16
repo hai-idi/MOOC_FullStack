@@ -1,0 +1,27 @@
+0.4: Uusi muistiinpano
+
+Käyttäjä painaa "Save"-nappia
+
+Selain lähettää HTTP POST -pyynnön osoitteeseen /new_note
+
+Palvelin vastaa pyyntöön HTTP-statuskoodilla 302 //redirectaus
+
+Selain lähettää uuden HTTP GET -pyynnön osoitteeseen /notes
+
+Palvelin vastaa pyyntöön HTML-koodilla
+
+Selain lähettää uuden HTTP GET -pyynnön /main.css
+
+Palvelin vastaa pyyntöön main.css
+
+Selain lähettää uuden HTTP GET -pyynnön /main.js
+
+Palvelin vastaa pyyntöön main.js
+
+Selain suorittaa js-koodin, joka pyytää JSON-dataa palvelimelta
+
+Selain lähettää uuden HTTP GET -pyynnön /data.json
+
+Palvelin vastaa pyyntöön data.json
+
+Selain suorittaa pyynnön

@@ -1,0 +1,7 @@
+0.6: Uusi muistiinpano
+
+Käyttäjä painaa "Save"-nappia
+
+Selain lähettää HTTP POST -pyynnön osoitteeseen /spa
+
+Palvelin vastaa pyyntöön statuskoodilla 201 created

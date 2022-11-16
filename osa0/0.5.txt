@@ -1,0 +1,23 @@
+0.5: Single Page App
+
+Käyttäjä avaa sivun
+
+Selain lähettää HTTP GET -pyynnön osoitteeseen /spa
+
+Palvelin vastaa pyyntöön HTML-koodilla
+
+Selain lähettää HTTP GET -pyynnön /main.css
+
+Palvelin vastaa pyyntöön main.css
+
+Selain lähettää HTTP GET -pyynnön /main.js
+
+Palvelin vastaa pyyntöön main.js
+
+Selain suorittaa js-koodin, joka pyytää JSON-dataa palvelimelta
+
+Selain lähettää uuden HTTP GET -pyynnön /data.json
+
+Palvelin vastaa pyyntöön data.json
+
+Selain suorittaa pyynnön
